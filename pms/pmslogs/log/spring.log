@@ -1,0 +1,537 @@
+2019-Sep-04 09:32:20.079 INFO  [restartedMain] c.n.p.PmsApplication - Starting PmsApplication on DESKTOP-J57FTH6 with PID 8148 (E:\PMS_workspace\pms\target\classes started by nic 1 in E:\PMS_workspace\pms)
+2019-Sep-04 09:32:20.079 DEBUG [restartedMain] c.n.p.PmsApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-Sep-04 09:32:20.079 INFO  [restartedMain] c.n.p.PmsApplication - No active profile set, falling back to default profiles: default
+2019-Sep-04 09:32:20.340 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-Sep-04 09:32:20.353 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 2 repository interfaces.
+2019-Sep-04 09:32:20.387 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f0507200] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-04 09:32:20.387 INFO  [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-Sep-04 09:32:20.393 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4bb8ad01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-04 09:32:20.395 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$cb38fa33] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-04 09:32:20.524 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-Sep-04 09:32:20.525 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Sep-04 09:32:20.525 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-Sep-04 09:32:20.525 INFO  [restartedMain] o.a.c.c.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-Sep-04 09:32:20.525 INFO  [restartedMain] o.a.c.c.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-Sep-04 09:32:20.525 INFO  [restartedMain] o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-Sep-04 09:32:20.525 INFO  [restartedMain] o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-Sep-04 09:32:20.525 INFO  [restartedMain] o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-Sep-04 09:32:20.545 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-Sep-04 09:32:20.545 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 465 ms
+2019-Sep-04 09:32:20.676 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-3 - Starting...
+2019-Sep-04 09:32:20.684 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-3 - Start completed.
+2019-Sep-04 09:32:20.688 DEBUG [restartedMain] o.h.j.i.u.LogHelper - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: org.springframework.boot.devtools.restart.classloader.RestartClassLoader@59675d7b
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (HikariPool-3)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/E:/PMS_workspace/pms/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.nic.pms.model.Role
+		com.nic.pms.model.User]
+	Mapping files names []
+	Properties []
+2019-Sep-04 09:32:20.688 DEBUG [restartedMain] o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2019-Sep-04 09:32:20.688 DEBUG [restartedMain] o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2019-Sep-04 09:32:20.688 DEBUG [restartedMain] o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2019-Sep-04 09:32:20.689 DEBUG [restartedMain] o.h.s.s.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2019-Sep-04 09:32:20.689 DEBUG [restartedMain] o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2019-Sep-04 09:32:20.689 DEBUG [restartedMain] o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@4009affc
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@4009affc
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4009affc
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@60f5c188
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@5f2cfda1
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@50102282
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@281910e9
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@281910e9
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@281910e9
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@6987d041
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@6987d041
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6987d041
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@39fad1a5
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@39fad1a5
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@39fad1a5
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@376bcbd7
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@376bcbd7
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@376bcbd7
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@30f0277c
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@30f0277c
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@30f0277c
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@6d8efa46
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@6d8efa46
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6d8efa46
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@7442eabf
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@7442eabf
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7442eabf
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@74cd1713
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@74cd1713
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@135d9ea9
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@135d9ea9
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@1e936098
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@1e936098
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@46c95624
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@719aea9
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@3ceea6d0
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@3ceea6d0
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@3fb58119
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@3fb58119
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@380ffb8e
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@380ffb8e
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@2bb8ef4a
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@2bb8ef4a
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@3395e4f4
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@3395e4f4
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@68573910
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@68573910
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2492ab33
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2492ab33
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@67504f84
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@67504f84
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@35e0ced9
+2019-Sep-04 09:32:20.690 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@35e0ced9
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@71104007
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@71104007
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@365ba1c2
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@365ba1c2
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@6118a86e
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6118a86e
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6118a86e
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@75401417
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@e7229f6
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@e7229f6
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@e7229f6
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@d3c70bd
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@41f1e553
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@41f1e553
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@7a5ce267
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@7a5ce267
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@5199429d
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5199429d
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@186139f8
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@186139f8
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@ba8d215
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@ba8d215
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@536a294e
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@1a10f1f8
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@1a10f1f8
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@1a10f1f8
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@37050075
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@37050075
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@37050075
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@140ddca3
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@73bb872d
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@1c5a7776
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@1c5a7776
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@1c5a7776
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@2a77702e
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@2a77702e
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@2a77702e
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@2e85c8bd
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@117e610d
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@60f1fd74
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@60f1fd74
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1b18670e
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@2c59a1c2
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@2c59a1c2
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@27965f57
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@27965f57
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@60570646
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@49492160
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@73618b9c
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@20647338
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@20647338
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5bea872f
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@729ebc33
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@191865db
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7bb367b0
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@746f5416
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7317118c
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@297b8488
+2019-Sep-04 09:32:20.691 DEBUG [restartedMain] o.h.t.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4995f8f0
+2019-Sep-04 09:32:20.692 DEBUG [restartedMain] o.h.b.i.BootstrapContextImpl - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@47d4ca30] into BootstrapContext; was [null]
+2019-Sep-04 09:32:20.692 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@47d4ca30) [was null]
+2019-Sep-04 09:32:20.692 DEBUG [restartedMain] o.h.b.i.BootstrapContextImpl - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@c042837] into BootstrapContext; was [null]
+2019-Sep-04 09:32:20.692 DEBUG [restartedMain] o.h.b.i.BootstrapContextImpl - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@792eb2fb] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@1f1a9756]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.b.i.BootstrapContextImpl - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@47d4ca30]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@47d4ca30]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2019-Sep-04 09:32:20.698 DEBUG [restartedMain] o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2019-Sep-04 09:32:20.699 DEBUG [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 8.0.13
+      major : 8
+      minor : 0
+2019-Sep-04 09:32:20.699 DEBUG [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.17 (Revision: 16a712ddb3f826a1933ab42b0039f7fb9eebc6ec)
+      major : 8
+      minor : 0
+2019-Sep-04 09:32:20.699 DEBUG [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2
+2019-Sep-04 09:32:20.699 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-Sep-04 09:32:20.700 DEBUG [restartedMain] o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+2019-Sep-04 09:32:20.700 DEBUG [restartedMain] o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2019-Sep-04 09:32:20.701 DEBUG [restartedMain] o.h.b.m.r.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2019-Sep-04 09:32:20.701 DEBUG [restartedMain] o.h.t.s.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@6f9aca05] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@5b7554d3]
+2019-Sep-04 09:32:20.702 DEBUG [restartedMain] o.h.c.AnnotationBinder - Binding entity from annotated class: com.nic.pms.model.Role
+2019-Sep-04 09:32:20.702 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2019-Sep-04 09:32:20.702 DEBUG [restartedMain] o.h.c.a.EntityBinder - Import with entity name Role
+2019-Sep-04 09:32:20.702 DEBUG [restartedMain] o.h.c.a.EntityBinder - Bind entity com.nic.pms.model.Role on table role
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.a.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.nic.pms.model.Role:id]
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.a.SimpleValueBinder - building SimpleValue for id
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.a.PropertyBinder - Building property id
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, , ...)
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.a.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.nic.pms.model.Role:name]
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.a.SimpleValueBinder - building SimpleValue for name
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.a.PropertyBinder - Building property name
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=users_key, insertable=true, updatable=true, unique=false}
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='users_KEY', referencedColumn='null', mappedBy='null'}
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='roles'}
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='roles'}
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.a.CollectionBinder - Collection role: com.nic.pms.model.Role.users
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.a.PropertyBinder - Building property users
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.AnnotationBinder - Binding entity from annotated class: com.nic.pms.model.User
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.a.EntityBinder - Import with entity name User
+2019-Sep-04 09:32:20.703 DEBUG [restartedMain] o.h.c.a.EntityBinder - Bind entity com.nic.pms.model.User on table user
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.a.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.nic.pms.model.User:id]
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.a.SimpleValueBinder - building SimpleValue for id
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.a.PropertyBinder - Building property id
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, , ...)
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.a.PropertyBinder - MetadataSourceProcessor property password with lazy=false
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.nic.pms.model.User:password]
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.a.SimpleValueBinder - building SimpleValue for password
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.a.PropertyBinder - Building property password
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=roles_key, insertable=true, updatable=true, unique=false}
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='roles_KEY', referencedColumn='null', mappedBy='null'}
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='role_id', referencedColumn='', mappedBy=''}
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.a.CollectionBinder - Collection role: com.nic.pms.model.User.roles
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.a.PropertyBinder - Building property roles
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=username, insertable=true, updatable=true, unique=false}
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.a.PropertyBinder - MetadataSourceProcessor property username with lazy=false
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.nic.pms.model.User:username]
+2019-Sep-04 09:32:20.704 DEBUG [restartedMain] o.h.c.a.SimpleValueBinder - building SimpleValue for username
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.a.PropertyBinder - Building property username
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.a.SimpleValueBinder - Starting fillSimpleValue for id
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.a.SimpleValueBinder - Starting fillSimpleValue for name
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.a.SimpleValueBinder - Starting fillSimpleValue for id
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.a.SimpleValueBinder - Starting fillSimpleValue for password
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.a.SimpleValueBinder - Starting fillSimpleValue for username
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.m.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [role]
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.m.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.CollectionSecondPass - Second pass for collection: com.nic.pms.model.User.roles
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.a.CollectionBinder - Binding as ManyToMany: com.nic.pms.model.User.roles
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.m.PrimaryKey - Forcing column [user_id] to be non-null as it is part of the primary key for table [user_role]
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.m.PrimaryKey - Forcing column [role_id] to be non-null as it is part of the primary key for table [user_role]
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.CollectionSecondPass - Mapped collection key: user_id, element: role_id
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.CollectionSecondPass - Second pass for collection: com.nic.pms.model.Role.users
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.a.CollectionBinder - Binding as ManyToMany: com.nic.pms.model.Role.users
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.a.TableBinder - Retrieving property com.nic.pms.model.User.roles
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.c.CollectionSecondPass - Mapped collection key: role_id, element: user_id
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: com.nic.pms.model.Role
+2019-Sep-04 09:32:20.705 DEBUG [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: com.nic.pms.model.User
+2019-Sep-04 09:32:20.706 DEBUG [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: com.nic.pms.model.Role
+2019-Sep-04 09:32:20.706 DEBUG [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: com.nic.pms.model.User
+2019-Sep-04 09:32:20.706 DEBUG [restartedMain] o.h.i.SessionFactoryImpl - Building session factory
+2019-Sep-04 09:32:20.706 DEBUG [restartedMain] o.h.c.Settings - SessionFactory name : null
+2019-Sep-04 09:32:20.706 DEBUG [restartedMain] o.h.c.Settings - Automatic flush during beforeCompletion(): enabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Automatic session close at end of transaction: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Statistics: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Deleted entity synthetic identifier rollback: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Default entity-mode: pojo
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Allow initialization of lazy state outside session : disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Using BatchFetchStyle : LEGACY
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Default batch fetch size: -1
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Maximum outer join fetch depth: 2
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Default null ordering: NONE
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Order SQL updates by primary key: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Order SQL inserts for batching: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - multi-tenancy strategy : NONE
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - JTA Track by Thread: enabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Query language substitutions: {}
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Named query checking : enabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Second-level cache: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Second-level query cache: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Second-level query cache factory: null
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Second-level cache region prefix: null
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Optimize second-level cache for minimal puts: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Structured second-level cache entries: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Second-level cache direct-reference entries: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Automatic eviction of collection cache: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - JDBC batch size: 15
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - JDBC batch updates for versioned data: enabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Scrollable result sets: enabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Wrap result sets: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - JDBC3 getGeneratedKeys(): enabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - JDBC result set fetch size: null
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Connection release mode: ON_CLOSE
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - Generate SQL with comments: disabled
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - JPA compliance - query : 
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - JPA compliance - closed-handling : 
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - JPA compliance - lists : 
+2019-Sep-04 09:32:20.707 DEBUG [restartedMain] o.h.c.Settings - JPA compliance - transactions : 
+2019-Sep-04 09:32:20.708 DEBUG [restartedMain] o.h.i.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+2019-Sep-04 09:32:20.708 DEBUG [restartedMain] o.h.i.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, hibernate.id.new_generator_mappings=true, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@7d55f3f8, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=E:\PMS_workspace\pms\target\classes;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.1.7.RELEASE\spring-boot-starter-data-jpa-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.1.7.RELEASE\spring-boot-starter-aop-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.1.7.RELEASE\spring-boot-starter-jdbc-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\com\zaxxer\HikariCP\3.2.0\HikariCP-3.2.0.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-jdbc\5.1.9.RELEASE\spring-jdbc-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\javax\transaction\javax.transaction-api\1.3\javax.transaction-api-1.3.jar;C:\Users\nic 1\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\nic 1\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\nic 1\.m2\repository\org\hibernate\hibernate-core\5.3.10.Final\hibernate-core-5.3.10.Final.jar;C:\Users\nic 1\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\nic 1\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\nic 1\.m2\repository\org\javassist\javassist\3.23.2-GA\javassist-3.23.2-GA.jar;C:\Users\nic 1\.m2\repository\net\bytebuddy\byte-buddy\1.9.16\byte-buddy-1.9.16.jar;C:\Users\nic 1\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\nic 1\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\nic 1\.m2\repository\com\fasterxml\classmate\1.4.0\classmate-1.4.0.jar;C:\Users\nic 1\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\Users\nic 1\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\nic 1\.m2\repository\org\springframework\data\spring-data-jpa\2.1.10.RELEASE\spring-data-jpa-2.1.10.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\data\spring-data-commons\2.1.10.RELEASE\spring-data-commons-2.1.10.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-orm\5.1.9.RELEASE\spring-orm-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-context\5.1.9.RELEASE\spring-context-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-tx\5.1.9.RELEASE\spring-tx-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-beans\5.1.9.RELEASE\spring-beans-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-aspects\5.1.9.RELEASE\spring-aspects-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.1.7.RELEASE\spring-boot-starter-security-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter\2.1.7.RELEASE\spring-boot-starter-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.1.7.RELEASE\spring-boot-starter-logging-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\nic 1\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\nic 1\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.2\log4j-to-slf4j-2.11.2.jar;C:\Users\nic 1\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\Users\nic 1\.m2\repository\org\slf4j\jul-to-slf4j\1.7.26\jul-to-slf4j-1.7.26.jar;C:\Users\nic 1\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-aop\5.1.9.RELEASE\spring-aop-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\security\spring-security-config\5.1.6.RELEASE\spring-security-config-5.1.6.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\security\spring-security-core\5.1.6.RELEASE\spring-security-core-5.1.6.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\security\spring-security-web\5.1.6.RELEASE\spring-security-web-5.1.6.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-expression\5.1.9.RELEASE\spring-expression-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\2.1.7.RELEASE\spring-boot-starter-actuator-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\2.1.7.RELEASE\spring-boot-actuator-autoconfigure-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-actuator\2.1.7.RELEASE\spring-boot-actuator-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9\jackson-databind-2.9.9.jar;C:\Users\nic 1\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\nic 1\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.9\jackson-datatype-jsr310-2.9.9.jar;C:\Users\nic 1\.m2\repository\io\micrometer\micrometer-core\1.1.5\micrometer-core-1.1.5.jar;C:\Users\nic 1\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.9\HdrHistogram-2.1.9.jar;C:\Users\nic 1\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-data-rest\2.1.7.RELEASE\spring-boot-starter-data-rest-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\data\spring-data-rest-webmvc\3.1.10.RELEASE\spring-data-rest-webmvc-3.1.10.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\data\spring-data-rest-core\3.1.10.RELEASE\spring-data-rest-core-3.1.10.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\hateoas\spring-hateoas\0.25.2.RELEASE\spring-hateoas-0.25.2.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\atteo\evo-inflector\1.2.2\evo-inflector-1.2.2.jar;C:\Users\nic 1\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-jersey\2.1.7.RELEASE\spring-boot-starter-jersey-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.1.7.RELEASE\spring-boot-starter-json-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.9\jackson-datatype-jdk8-2.9.9.jar;C:\Users\nic 1\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.9\jackson-module-parameter-names-2.9.9.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-validation\2.1.7.RELEASE\spring-boot-starter-validation-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-web\5.1.9.RELEASE\spring-web-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\glassfish\jersey\core\jersey-server\2.27\jersey-server-2.27.jar;C:\Users\nic 1\.m2\repository\org\glassfish\jersey\core\jersey-common\2.27\jersey-common-2.27.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar;C:\Users\nic 1\.m2\repository\org\glassfish\jersey\core\jersey-client\2.27\jersey-client-2.27.jar;C:\Users\nic 1\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.1\javax.ws.rs-api-2.1.jar;C:\Users\nic 1\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.27\jersey-media-jaxb-2.27.jar;C:\Users\nic 1\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\nic 1\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.27\jersey-container-servlet-core-2.27.jar;C:\Users\nic 1\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.27\jersey-container-servlet-2.27.jar;C:\Users\nic 1\.m2\repository\org\glassfish\jersey\ext\jersey-bean-validation\2.27\jersey-bean-validation-2.27.jar;C:\Users\nic 1\.m2\repository\org\glassfish\jersey\ext\jersey-spring4\2.27\jersey-spring4-2.27.jar;C:\Users\nic 1\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\2.27\jersey-hk2-2.27.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0-b42\hk2-locator-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0-b42\aopalliance-repackaged-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\hk2\2.5.0-b42\hk2-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0-b42\hk2-utils-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0-b42\hk2-api-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\config-types\2.5.0-b42\config-types-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\hk2-core\2.5.0-b42\hk2-core-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\hk2-config\2.5.0-b42\hk2-config-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\hk2-runlevel\2.5.0-b42\hk2-runlevel-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\class-model\2.5.0-b42\class-model-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\external\asm-all-repackaged\2.5.0-b42\asm-all-repackaged-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\org\glassfish\hk2\spring-bridge\2.5.0-b42\spring-bridge-2.5.0-b42.jar;C:\Users\nic 1\.m2\repository\org\glassfish\jersey\media\jersey-media-json-jackson\2.27\jersey-media-json-jackson-2.27.jar;C:\Users\nic 1\.m2\repository\org\glassfish\jersey\ext\jersey-entity-filtering\2.27\jersey-entity-filtering-2.27.jar;C:\Users\nic 1\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.9\jackson-module-jaxb-annotations-2.9.9.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-mail\2.1.7.RELEASE\spring-boot-starter-mail-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-context-support\5.1.9.RELEASE\spring-context-support-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\nic 1\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.1.7.RELEASE\spring-boot-starter-thymeleaf-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.11.RELEASE\thymeleaf-spring5-3.0.11.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\thymeleaf\thymeleaf\3.0.11.RELEASE\thymeleaf-3.0.11.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.4.RELEASE\thymeleaf-extras-java8time-3.0.4.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.1.7.RELEASE\spring-boot-starter-web-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.17.Final\hibernate-validator-6.0.17.Final.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-webmvc\5.1.9.RELEASE\spring-webmvc-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-web-services\2.1.7.RELEASE\spring-boot-starter-web-services-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\com\sun\xml\messaging\saaj\saaj-impl\1.5.0\saaj-impl-1.5.0.jar;C:\Users\nic 1\.m2\repository\javax\xml\soap\javax.xml.soap-api\1.4.0\javax.xml.soap-api-1.4.0.jar;C:\Users\nic 1\.m2\repository\org\jvnet\mimepull\mimepull\1.9.11\mimepull-1.9.11.jar;C:\Users\nic 1\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\nic 1\.m2\repository\javax\xml\ws\jaxws-api\2.3.1\jaxws-api-2.3.1.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-oxm\5.1.9.RELEASE\spring-oxm-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\ws\spring-ws-core\3.0.7.RELEASE\spring-ws-core-3.0.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\ws\spring-xml\3.0.7.RELEASE\spring-xml-3.0.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\nic 1\.m2\repository\org\springframework\session\spring-session-core\2.1.8.RELEASE\spring-session-core-2.1.8.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-jcl\5.1.9.RELEASE\spring-jcl-5.1.9.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-devtools\2.1.7.RELEASE\spring-boot-devtools-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot\2.1.7.RELEASE\spring-boot-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.7.RELEASE\spring-boot-autoconfigure-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\mysql\mysql-connector-java\8.0.17\mysql-connector-java-8.0.17.jar;C:\Users\nic 1\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\nic 1\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.1.7.RELEASE\spring-boot-starter-tomcat-2.1.7.RELEASE.jar;C:\Users\nic 1\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\nic 1\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.22\tomcat-embed-core-9.0.22.jar;C:\Users\nic 1\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.22\tomcat-embed-el-9.0.22.jar;C:\Users\nic 1\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.22\tomcat-embed-websocket-9.0.22.jar;C:\Users\nic 1\.m2\repository\org\springframework\spring-core\5.1.9.RELEASE\spring-core-5.1.9.RELEASE.jar, java.vm.vendor=Oracle Corporation, LOG_PATH=pmslogs, sun.arch.data.model=64, user.variant=, catalina.useNaming=false, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Calcutta, os.name=Windows 10, java.vm.specification.version=1.8, javax.persistence.validation.mode=AUTO, sun.java.launcher=SUN_STANDARD, user.country=IN, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_191\bin, sun.java.command=com.nic.pms.PmsApplication, hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@575a4b0e, javax.persistence.sharedCache.mode=UNSPECIFIED, sun.cpu.endian=little, user.home=C:\Users\nic 1, user.language=en, java.specification.vendor=Oracle Corporation, java.home=C:\Program Files\Java\jre1.8.0_191, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.awt.headless=true, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_191\lib\resources.jar;C:\Program Files\Java\jre1.8.0_191\lib\rt.jar;C:\Program Files\Java\jre1.8.0_191\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_191\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_191\lib\jce.jar;C:\Program Files\Java\jre1.8.0_191\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_191\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_191\classes, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_191-b12, user.name=nic 1, path.separator=;, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_191\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, FILE_LOG_PATTERN=%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n, hibernate.ejb.persistenceUnitName=default, file.encoding=UTF-8, spring.beaninfo.ignore=true, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, LOG_FILE=pmslogs/spring.log, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\NIC1~1\AppData\Local\Temp\, com.zaxxer.hikari.pool_number=1, catalina.home=C:\Users\nic 1\AppData\Local\Temp\tomcat.7143388765406157894.8080, java.version=1.8.0_191, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=E:\PMS_workspace\pms, os.arch=amd64, PID=8148, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, catalina.base=C:\Users\nic 1\AppData\Local\Temp\tomcat.7143388765406157894.8080, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@228244cd, java.library.path=C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\apache-tomcat-7.0.93\bin;C:\apache-maven-3.5.4\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\nic 1\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.191-b12, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.datasource=HikariDataSource (HikariPool-3), sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files\Java\jre1.8.0_191\lib\ext;C:\Windows\Sun\Java\lib\ext, java.class.version=52.0, CONSOLE_LOG_PATTERN=%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n  }
+2019-Sep-04 09:32:20.708 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2019-Sep-04 09:32:20.708 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2019-Sep-04 09:32:20.709 DEBUG [restartedMain] o.h.v.i.x.c.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-Sep-04 09:32:20.709 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2019-Sep-04 09:32:20.709 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-Sep-04 09:32:20.709 DEBUG [restartedMain] o.h.v.i.x.c.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-Sep-04 09:32:20.711 DEBUG [restartedMain] o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2019-Sep-04 09:32:20.711 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-Sep-04 09:32:20.711 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-Sep-04 09:32:20.711 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-Sep-04 09:32:20.711 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-Sep-04 09:32:20.711 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-Sep-04 09:32:20.711 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [com.nic.pms.model.Role] is safe
+2019-Sep-04 09:32:20.711 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.nic.pms.model.Role
+2019-Sep-04 09:32:20.712 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [com.nic.pms.model.User] is safe
+2019-Sep-04 09:32:20.712 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.nic.pms.model.User
+2019-Sep-04 09:32:20.713 DEBUG [restartedMain] o.h.s.s.JaccIntegrator - Skipping JACC integration as it was not enabled
+2019-Sep-04 09:32:20.713 DEBUG [restartedMain] o.h.i.SessionFactoryImpl - Instantiated session factory
+2019-Sep-04 09:32:20.713 DEBUG [restartedMain] o.h.t.s.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@6f9aca05] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@609505cd]
+2019-Sep-04 09:32:20.714 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [com.nic.pms.model.Role] is safe
+2019-Sep-04 09:32:20.714 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.nic.pms.model.Role
+2019-Sep-04 09:32:20.714 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [com.nic.pms.model.Role] is safe
+2019-Sep-04 09:32:20.714 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.nic.pms.model.Role
+2019-Sep-04 09:32:20.720 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [com.nic.pms.model.User] is safe
+2019-Sep-04 09:32:20.720 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.nic.pms.model.User
+2019-Sep-04 09:32:20.720 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [com.nic.pms.model.User] is safe
+2019-Sep-04 09:32:20.720 DEBUG [restartedMain] o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.nic.pms.model.User
+2019-Sep-04 09:32:20.725 DEBUG [restartedMain] o.h.p.c.AbstractCollectionPersister - Static SQL for collection: com.nic.pms.model.Role.users
+2019-Sep-04 09:32:20.725 DEBUG [restartedMain] o.h.p.c.AbstractCollectionPersister -  Row insert: insert into user_role (role_id, user_id) values (?, ?)
+2019-Sep-04 09:32:20.725 DEBUG [restartedMain] o.h.p.c.AbstractCollectionPersister -  Row update: update user_role set user_id=? where role_id=? and user_id=?
+2019-Sep-04 09:32:20.725 DEBUG [restartedMain] o.h.p.c.AbstractCollectionPersister -  Row delete: delete from user_role where role_id=? and user_id=?
+2019-Sep-04 09:32:20.725 DEBUG [restartedMain] o.h.p.c.AbstractCollectionPersister -  One-shot delete: delete from user_role where role_id=?
+2019-Sep-04 09:32:20.725 DEBUG [restartedMain] o.h.p.c.AbstractCollectionPersister - Static SQL for collection: com.nic.pms.model.User.roles
+2019-Sep-04 09:32:20.725 DEBUG [restartedMain] o.h.p.c.AbstractCollectionPersister -  Row insert: insert into user_role (user_id, role_id) values (?, ?)
+2019-Sep-04 09:32:20.725 DEBUG [restartedMain] o.h.p.c.AbstractCollectionPersister -  Row update: update user_role set role_id=? where user_id=? and role_id=?
+2019-Sep-04 09:32:20.725 DEBUG [restartedMain] o.h.p.c.AbstractCollectionPersister -  Row delete: delete from user_role where user_id=? and role_id=?
+2019-Sep-04 09:32:20.725 DEBUG [restartedMain] o.h.p.c.AbstractCollectionPersister -  One-shot delete: delete from user_role where user_id=?
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister - Static SQL for entity: com.nic.pms.model.Role
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister -  Version select: select id from role where id =?
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister -  Snapshot select: select role_.id, role_.name as name2_0_ from role role_ where role_.id=?
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister -  Insert 0: insert into role (name, id) values (?, ?)
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister -  Update 0: update role set name=? where id=?
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister -  Delete 0: delete from role where id=?
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4733bae7]
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : name
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : users
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@26f0ada9]
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6d536cf4]
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.b.s.LoadPlanTreePrinter - LoadPlan(entity=com.nic.pms.model.Role)
+    - Returns
+       - EntityReturnImpl(entity=com.nic.pms.model.Role, querySpaceUid=<gen:0>, path=com.nic.pms.model.Role)
+          - CollectionAttributeFetchImpl(collection=com.nic.pms.model.Role.users, querySpaceUid=<gen:1>, path=com.nic.pms.model.Role.users)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.nic.pms.model.User, querySpaceUid=<gen:2>, path=com.nic.pms.model.Role.users.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.nic.pms.model.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.e.p.EntityLoader - Static select for entity com.nic.pms.model.Role [NONE]: select role0_.id as id1_0_0_, role0_.name as name2_0_0_ from role role0_ where role0_.id=?
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@376d173b]
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : name
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : users
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@18dfb2fc]
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e9d49df]
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.p.b.s.LoadPlanTreePrinter - LoadPlan(entity=com.nic.pms.model.Role)
+    - Returns
+       - EntityReturnImpl(entity=com.nic.pms.model.Role, querySpaceUid=<gen:0>, path=com.nic.pms.model.Role)
+          - CollectionAttributeFetchImpl(collection=com.nic.pms.model.Role.users, querySpaceUid=<gen:1>, path=com.nic.pms.model.Role.users)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.nic.pms.model.User, querySpaceUid=<gen:2>, path=com.nic.pms.model.Role.users.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.nic.pms.model.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-Sep-04 09:32:20.726 DEBUG [restartedMain] o.h.l.e.p.EntityLoader - Static select for entity com.nic.pms.model.Role [READ]: select role0_.id as id1_0_0_, role0_.name as name2_0_0_ from role role0_ where role0_.id=?
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.Loader - Static select for action ACTION_MERGE on entity com.nic.pms.model.Role: select role0_.id as id1_0_0_, role0_.name as name2_0_0_ from role role0_ where role0_.id=?
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.Loader - Static select for action ACTION_REFRESH on entity com.nic.pms.model.Role: select role0_.id as id1_0_0_, role0_.name as name2_0_0_ from role role0_ where role0_.id=?
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister - Static SQL for entity: com.nic.pms.model.User
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister -  Version select: select id from user where id =?
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister -  Snapshot select: select user_.id, user_.password as password2_1_, user_.username as username3_1_ from user user_ where user_.id=?
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister -  Insert 0: insert into user (password, username, id) values (?, ?, ?)
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister -  Update 0: update user set password=?, username=? where id=?
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.e.AbstractEntityPersister -  Delete 0: delete from user where id=?
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@31165ff8]
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : password
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : roles
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@61816100]
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@65d61f5e]
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : username
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.b.s.LoadPlanTreePrinter - LoadPlan(entity=com.nic.pms.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.nic.pms.model.User, querySpaceUid=<gen:0>, path=com.nic.pms.model.User)
+          - CollectionAttributeFetchImpl(collection=com.nic.pms.model.User.roles, querySpaceUid=<gen:1>, path=com.nic.pms.model.User.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.nic.pms.model.Role, querySpaceUid=<gen:2>, path=com.nic.pms.model.User.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.nic.pms.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.e.p.EntityLoader - Static select for entity com.nic.pms.model.User [NONE]: select user0_.id as id1_1_0_, user0_.password as password2_1_0_, user0_.username as username3_1_0_ from user user0_ where user0_.id=?
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@66bc6583]
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : password
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : roles
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6b4d5718]
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3eb499c0]
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : username
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.p.b.s.LoadPlanTreePrinter - LoadPlan(entity=com.nic.pms.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.nic.pms.model.User, querySpaceUid=<gen:0>, path=com.nic.pms.model.User)
+          - CollectionAttributeFetchImpl(collection=com.nic.pms.model.User.roles, querySpaceUid=<gen:1>, path=com.nic.pms.model.User.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.nic.pms.model.Role, querySpaceUid=<gen:2>, path=com.nic.pms.model.User.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.nic.pms.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.e.p.EntityLoader - Static select for entity com.nic.pms.model.User [READ]: select user0_.id as id1_1_0_, user0_.password as password2_1_0_, user0_.username as username3_1_0_ from user user0_ where user0_.id=?
+2019-Sep-04 09:32:20.727 DEBUG [restartedMain] o.h.l.Loader - Static select for action ACTION_MERGE on entity com.nic.pms.model.User: select user0_.id as id1_1_0_, user0_.password as password2_1_0_, user0_.username as username3_1_0_ from user user0_ where user0_.id=?
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.Loader - Static select for action ACTION_REFRESH on entity com.nic.pms.model.User: select user0_.id as id1_1_0_, user0_.password as password2_1_0_, user0_.username as username3_1_0_ from user user0_ where user0_.id=?
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3b2163e8]
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4f816f9f]
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : password
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : roles
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Property path deemed to be circular : roles
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : username
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.p.b.s.LoadPlanTreePrinter - LoadPlan(collection=com.nic.pms.model.Role.users)
+    - Returns
+       - CollectionReturnImpl(collection=com.nic.pms.model.Role.users, querySpaceUid=<gen:0>, path=[com.nic.pms.model.Role.users])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.nic.pms.model.User, querySpaceUid=<gen:1>, path=[com.nic.pms.model.Role.users].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.nic.pms.model.Role.users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {role_id2_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.nic.pms.model.User)
+                - SQL table alias mapping - user1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.c.p.CollectionLoader - Static select for collection com.nic.pms.model.Role.users: select users0_.role_id as role_id2_2_0_, users0_.user_id as user_id1_2_0_, user1_.id as id1_1_1_, user1_.password as password2_1_1_, user1_.username as username3_1_1_ from user_role users0_ inner join user user1_ on users0_.user_id=user1_.id where users0_.role_id=?
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@649bf93e]
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.p.b.i.s.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@20228fa5]
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : name
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Visiting attribute path : users
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.p.w.s.MetamodelGraphWalker - Property path deemed to be circular : users
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.p.b.s.LoadPlanTreePrinter - LoadPlan(collection=com.nic.pms.model.User.roles)
+    - Returns
+       - CollectionReturnImpl(collection=com.nic.pms.model.User.roles, querySpaceUid=<gen:0>, path=[com.nic.pms.model.User.roles])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.nic.pms.model.Role, querySpaceUid=<gen:1>, path=[com.nic.pms.model.User.roles].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.nic.pms.model.User.roles)
+          - SQL table alias mapping - roles0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id1_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.nic.pms.model.Role)
+                - SQL table alias mapping - role1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+
+2019-Sep-04 09:32:20.728 DEBUG [restartedMain] o.h.l.c.p.CollectionLoader - Static select for collection com.nic.pms.model.User.roles: select roles0_.user_id as user_id1_2_0_, roles0_.role_id as role_id2_2_0_, role1_.id as id1_0_1_, role1_.name as name2_0_1_ from user_role roles0_ inner join role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2019-Sep-04 09:32:20.729 DEBUG [restartedMain] o.h.t.s.s.SchemaManagementToolCoordinator - No actions specified; doing nothing
+2019-Sep-04 09:32:20.729 DEBUG [restartedMain] o.h.q.s.NamedQueryRepository - Checking 0 named HQL queries
+2019-Sep-04 09:32:20.729 DEBUG [restartedMain] o.h.q.s.NamedQueryRepository - Checking 0 named SQL queries
+2019-Sep-04 09:32:20.729 DEBUG [restartedMain] o.h.i.SessionFactoryRegistry - Registering SessionFactory: c956c921-a470-4cfd-9394-c3fd462bd843 (<unnamed>)
+2019-Sep-04 09:32:20.729 DEBUG [restartedMain] o.h.i.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+2019-Sep-04 09:32:20.729 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-Sep-04 09:32:20.793 DEBUG [restartedMain] o.h.s.i.StatisticsInitiator - Statistics initialized [enabled=false]
+2019-Sep-04 09:32:20.803 DEBUG [restartedMain] o.h.e.t.i.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2019-Sep-04 09:32:20.883 DEBUG [restartedMain] o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {securityConfig=com.nic.pms.SecurityConfig$$EnhancerBySpringCGLIB$$1176c753@72981cff}
+2019-Sep-04 09:32:20.888 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource - Adding web access control expression 'permitAll', for Ant [pattern='/login']
+2019-Sep-04 09:32:20.889 DEBUG [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor - Validated configuration attributes
+2019-Sep-04 09:32:20.889 DEBUG [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor - Validated configuration attributes
+2019-Sep-04 09:32:20.889 INFO  [restartedMain] o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@565d0795, org.springframework.security.web.context.SecurityContextPersistenceFilter@ee994ac, org.springframework.security.web.header.HeaderWriterFilter@16a8b775, org.springframework.security.web.csrf.CsrfFilter@eda08e2, org.springframework.security.web.authentication.logout.LogoutFilter@708b998f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@233b7c4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@707b7440, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b32938d, org.springframework.security.web.session.SessionManagementFilter@502a0b53, org.springframework.security.web.access.ExceptionTranslationFilter@7fca56ba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4dbdeaeb]
+2019-Sep-04 09:32:20.894 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2019-Sep-04 09:32:20.894 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2019-Sep-04 09:32:20.894 DEBUG [restartedMain] o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2019-Sep-04 09:32:20.894 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2019-Sep-04 09:32:20.894 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2019-Sep-04 09:32:20.894 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-Sep-04 09:32:20.894 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-Sep-04 09:32:20.894 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-Sep-04 09:32:20.894 DEBUG [restartedMain] o.h.v.i.x.c.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-Sep-04 09:32:20.894 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2019-Sep-04 09:32:20.895 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2019-Sep-04 09:32:20.895 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-Sep-04 09:32:20.895 DEBUG [restartedMain] o.h.v.i.x.c.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-Sep-04 09:32:20.896 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-Sep-04 09:32:20.896 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-Sep-04 09:32:20.896 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-Sep-04 09:32:20.896 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-Sep-04 09:32:20.896 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-Sep-04 09:32:20.918 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Sep-04 09:32:20.921 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-Sep-04 09:32:21.006 INFO  [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-Sep-04 09:32:21.026 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-Sep-04 09:32:21.046 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-Sep-04 09:32:21.046 INFO  [restartedMain] c.n.p.PmsApplication - Started PmsApplication in 0.989 seconds (JVM running for 37.595)
+2019-Sep-04 09:32:21.049 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-Sep-04 09:32:21.049 DEBUG [restartedMain] c.n.p.PmsApplication - --Application Started--
+2019-Sep-04 09:32:22.737 INFO  [RMI TCP Connection(1)-10.21.103.26] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Sep-04 09:32:22.738 INFO  [RMI TCP Connection(1)-10.21.103.26] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-Sep-04 09:32:22.741 INFO  [RMI TCP Connection(1)-10.21.103.26] o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+2019-Sep-04 09:33:36.768 INFO  [Thread-17] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Sep-04 09:33:36.769 INFO  [Thread-17] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-Sep-04 09:33:36.769 DEBUG [Thread-17] o.h.i.SessionFactoryImpl - HHH000031: Closing
+2019-Sep-04 09:33:36.769 DEBUG [Thread-17] o.h.t.s.TypeConfiguration$Scope - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@3d571e2a] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@609505cd]
+2019-Sep-04 09:33:36.769 DEBUG [Thread-17] o.h.s.i.AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2019-Sep-04 09:33:36.769 DEBUG [Thread-17] o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2019-Sep-04 09:33:36.769 INFO  [Thread-17] c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2019-Sep-04 09:33:36.776 INFO  [Thread-17] c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed.
